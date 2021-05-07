@@ -1,0 +1,2 @@
+Client Work Order:
+Female client has started new commercial construction company and needs a website built which highlights that her company celebrates both women and men in construction. She’s included photos taken on job sites which she would like to incorporate into the website. She does not have a color scheme or fonts in mind and is trusting you to provide a visually appealing website and logo.

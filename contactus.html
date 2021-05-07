@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PYRAMID Construction Inc.</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/form.css">
+    <link rel="shortcut icon" href="./src/img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="contact-bg">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-logo">
+                <img src="./src/img/logo.svg">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample" id="navToggle">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="./index.html" class="navbar-item">
+                        Home
+                    </a>
+                    <a href="./blog.html" class="navbar-item">
+                        Blog
+                    </a>
+                    <a href="./aboutus.html" class="navbar-item">
+                        About Us
+                    </a>
+                    <a href="./contactus.html" class="navbar-item is-active">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="fullheight-form">
+        <div class="contact-header">
+            Contact Us
+        </div>
+        <div class="contact-header-small">
+            All fields, unless marked otherwise, are required.
+        </div>
+        <div class="custom-form">
+            <div class="form-wrapper">
+                <label class="label"><i class="fas fa-user"></i> First & Last Name</label>
+                <input id="firstName" type="text" class="input half" placeholder="First Name">
+                <input id="lastName" type="text" class="input half"placeholder="Last Name">
+                <label class="label"><i class="fas fa-envelope"></i> Email</label>
+                <input id="email" type="email" class="input"placeholder="Email">
+                <label class="label"><i class="fas fa-envelope"></i> Demographic (optional)</label>
+                    <div class="select full">
+                      <select>
+                        <option disable hidden>Choose one!</option>
+                        <option>Student or Parent</option>
+                        <option>Educator</option>
+                        <option>Industry Affiliate</option>
+                      </select>
+                    </div>
+                <label class="label"><i class="fas fa-heading"></i> Subject</label>
+                <input id="subject" type="text" class="input" placeholder="Subject">
+                <label class="label"><i class="fas fa-comments"></i> Message</label>
+                <textarea id="message" class="textarea" placeholder="Put your message here" rows="10"></textarea>
+                  <div class="submit-button columns is-hidden-custom" id="submitGroup">
+                    <div class="column">
+                        <button class="button is-primary is-fullwidth">
+                            Submit
+                        </button>
+                      </div>
+                      <div class="column">
+                        <button class="button is-danger is-fullwidth" id="reset">
+                            Reset
+                        </button>
+                      </div>
+                  </div>
+            </div> 
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <div class="navbar-logo">
+                <img src="./src/img/logo.svg">
+            </div>
+
+            <button class="button button-footer">
+                <i class="fas fa-phone"></i>
+                (303) 428-2770
+            </button>
+
+            <button class="button button-footer">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@pyramidconstruction.com">Email Us</a>
+            </button>    
+        </div>
+      </footer>
+    <!--import script -->
+    <script src="./src/js/home.js"></script>
+    <script src="./src/js/form.js"></script>
+</body>
+ 
+</html>

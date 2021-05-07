@@ -1,0 +1,88 @@
+@import "../fa/css/all.min.css";
+@import "./bulma.min.css";
+/* Define css color variables incase we need to change colors */
+/* this is a comment to fix git and will be removed later */
+
+.aboutus-bg {
+   background-color: #205b9e;
+}
+
+.aboutus-wrapper .aboutus-header {
+    font-size: ;
+}
+.aboutus-header {
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    padding:  55px 0 55px;
+    color: white;
+}
+
+.aboutus-small-text {
+    font-size: 30px;
+    text-align: center;
+    padding:  0 0 50px;
+}
+
+.aboutus-description{
+    width:80%!important;
+    margin: 0 auto 30px;
+   
+}
+ul { list-style: none; margin: 0; padding: 0;}
+figure { margin: 0; }
+
+.grid {
+  display: grid;
+  grid-auto-flow: column; 
+  grid-gap: 1em;
+  
+  
+}
+
+.marginbottom {
+    margin-bottom: 150px;
+}
+
+
+@media screen and (max-width: 1023px) {
+   
+
+    .aboutus-header {
+        font-size: 50px;
+    padding:  70px 0 35px;
+
+    }
+
+    .aboutus-small-text {
+        font-size: 18px;
+        padding: 25px;
+    }
+   
+    .aboutus-description {
+        width:75% !important;
+        margin: 0 auto 30px;
+       
+    }
+    
+}
+@media screen and (min-width: 1023px) and (max-width: 1731px) {
+    .aboutus-header {
+        font-size: 60px ;
+        padding:  70px 0 20px;
+
+    }
+   
+    .aboutus-small-text {
+        font-size: 24px;
+        padding:  0 0 80px;
+    }  
+
+    .aboutus-description {
+        margin: 0 auto 30px;
+        width:80%;
+        
+    }
+}
+
+

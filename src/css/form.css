@@ -1,0 +1,130 @@
+.contact-bg {
+    background-color: #205b9e;
+}
+
+.fullheight-form {
+    min-height: 70vh;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+}
+
+.contact-header {
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+}
+
+.contact-header-small {
+    font-size: 30px;
+    /* font-weight: 600; */
+    text-align: center;
+}
+.custom-form{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.textarea{
+    font-size:25px;
+}
+.custom-form label{
+    font-size:25px;
+    color:black;
+}
+.form-wrapper{
+    margin-top:25px;
+}
+input:active,input:hover{
+    border-bottom: 4px #FF7F78 solid!important;
+    color:white!important;
+}
+input::placeholder,label,input,textarea::placeholder{
+    color:white!important;
+}
+label i{
+    color:#FF7F78!important;
+}
+select{
+    background-color:#638DC9!important;
+    color:white!important;
+}
+.custom-form input,.select{
+    background-color:#638DC9;
+    border:0px;
+    box-shadow: none!important;
+    border-bottom: 4px white solid;
+    border-radius: 0px!important;
+    margin-bottom:20px;
+    margin-right:0px;
+    border-radius: 10px;
+    font-size:25px;
+}
+textarea{
+    background-color:#638DC9!important;
+    border: 2px white solid;
+    color:white!important;
+}
+.custom-form input.full,.select.full,.select select{
+    width:100%;
+}
+.submit-button{
+    margin-top:10px;
+}
+.submit-button button{
+    font-size:20px!important;
+}
+option{
+    font-size:20px;
+    width:100px!important;
+}
+.custom-form input.half{
+    width:calc(50% - 2.5px);
+}
+.custom-form span{
+    font-size:30px;
+}
+.is-hidden-custom{
+    visibility:hidden;
+}
+.hero-body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1023px) {
+    .fullheight-form {
+        min-height: 100%;
+        padding-top: 10px;
+    }
+
+    .contact-header {
+        font-size: 50px;
+    }
+
+    .contact-header-small {
+        font-size: 15px;
+        padding: 25px;
+    }
+    .custom-form{
+        width:90%;
+    }
+    
+}
+@media screen and (min-width: 1023px) and (max-width: 1731px) {
+    .contact-header {
+        font-size: 60px ;
+        padding:  40px 0 15px;
+    }
+    .custom-form{
+        width:75%;
+    }
+    .contact-header-small {
+        font-size: 20px;
+        padding:  0 0 50px;
+    }  
+}

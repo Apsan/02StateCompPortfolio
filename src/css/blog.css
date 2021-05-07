@@ -1,0 +1,33 @@
+.blogpage-wrapper{
+ background-color:#3D6098;   
+}
+.blogpage-wrapper .blog{
+    background-color:#00376A;
+    margin:10%;
+    min-height: 390px;
+    padding: 30px 20px 10px;
+    margin: 30px 10px;
+}
+.blogpage-wrapper .blog-title{
+    margin-top:20%;
+    font-size:30px;
+    font-weight: 600;  
+}
+.blogpage-title{
+    
+    color:white;
+    font-weight: 650;  
+    text-align: center;
+    font-size: 55px ;
+    padding:  70px 0 20px;
+
+}
+
+.button-bloge {
+    font-size: 15px;
+    margin: 50px 3% 30px;
+}
+
+.blogpage-home {
+    background-color: #F04B4C;
+}

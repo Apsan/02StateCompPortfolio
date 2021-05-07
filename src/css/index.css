@@ -1,0 +1,262 @@
+@import "../fa/css/all.min.css";
+@import "./bulma.min.css";
+
+:root {
+    --primary: #3D6098;
+    --primary-light: #638DC9;
+    --primary-dark: #00376A;
+    --secondary: #F04B4C;
+    --secondary-light: #FF7F78;
+    --secondary-dark: #B70124;
+}
+
+body,
+html {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: var(--primary-dark);
+}
+
+.navbar .navbar-logo img,
+.footer .navbar-logo img {
+    width: 500px;
+    margin: 0px;
+}
+
+.navbar-burger {
+    color: white !important;
+}
+
+.navbar .navbar-items {
+    line-height: 115px;
+    margin-right: 5%;
+}
+
+.navbar-item {
+    color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 20px;
+}
+.button a{
+    color:inherit!important;
+}
+.navbar-item:hover {
+    color: white !important;
+    background-color: inherit !important;
+}
+.navbar-item.is-active{
+    background-color: var(--secondary)!important;
+}   
+.navbar-menu.is-active {
+    background-color: var(--primary-dark);
+}
+.navbar-logo{
+    padding:20px;
+}
+.red {
+    color: var(--secondary) !important;
+}
+
+.green {
+    color: #00D68F !important;
+}
+
+.header {
+    background-image: url(../img/home-bg.jpg);
+}
+
+.header .header-text {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+.header .header-large {
+    font-size: 5vw;
+}
+
+.header .header-med {
+    font-size: 2.5vw;
+}
+
+.header-badges {
+    margin-top: 10px;
+}
+svg{
+    font-family: GothamRnd-Book, Gotham Rounded;
+}
+.header-badge {
+    border: var(--secondary) 3px solid;
+    margin: 50px;
+    text-align: left !important;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.header-badge i {
+    color: #00D68F !important;
+    padding: 5px;
+    text-align: left !important;
+}
+
+.work-wrapper,
+.blog-wrapper,
+.contactus-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.work-wrapper {
+    background-color: #CFCDCD;
+}
+
+.blog-wrapper {
+    background-color: var(--secondary);
+}
+
+.contactus-wrapper {
+    background-color: var(--primary);
+}
+
+.work-header-wrapper,
+.blog-header-wrapper {
+    margin-left: 5%;
+}
+
+.work-header,
+.blog-header {
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.work-header {
+    color: #205B9E;
+}
+
+.blog-header {
+    color: white;
+}
+
+.work-img-one img {
+    width: 50%;
+    float: right;
+    z-index: 4;
+    margin-right: 100px;
+}
+
+.work-img-two img {
+    width: 50%;
+    margin-top: -100px;
+    float: left;
+    margin-left: 50px;
+}
+
+.bg-square {
+    position: relative;
+    border: #B70124 20px solid;
+    margin-left: 150px;
+    border-radius: 100px;
+    width: 200px;
+    padding-top: 200px;
+    height: 200px;
+}
+
+.mobile-image {
+    padding: 10%;
+}
+
+.button-apply,
+.button-blog {
+    color: white;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 2s
+}
+
+.button-apply:hover,
+.button-apply:active,
+.button-blog:hover,
+.button-blog:active {
+    color: white !important;
+    transform: scale(1.2);
+
+}
+
+.button-apply {
+    background-color: var(--secondary);
+}
+
+.button-blog {
+    background-color: var(--primary);
+}
+
+.button-footer {
+    font-size: 19px;
+    font-weight: 500; 
+    margin-right: 20px;
+    background-color: #d1dbff;
+    text-decoration: none !important;
+}
+
+.footer {
+    background-color: var(--primary-dark);
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar .navbar-logo img {
+        margin: 0px;
+        padding: 10px;
+    }
+    .navbar-item.is-active{
+        background-color: var(--secondary)!important;
+    }
+    .header .header-large {
+        font-size: 50px;
+    }
+
+    .header .header-med {
+        font-size: 30px;
+    }
+
+    .header .header-text {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .header-badge {
+        max-width: 100%;
+    }
+
+    .button-apply,
+    .button-blog {
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .work-header,
+    .blog-header {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .work-header-wrapper,
+    .blog-header-wrapper,
+    .contactus-wrapper {
+        margin-left: 0;
+    }
+
+    .work-wrapper {
+        padding-top: 20px;
+
+    }
+}
